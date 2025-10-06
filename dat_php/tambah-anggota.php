@@ -40,16 +40,7 @@ if (isset($_POST['tambah'])) {
                 <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama mahaSiswa..." required>
             </div>
     
-            <div class="row">
-                <div class="mb-3 col-6">
-                    <label for="prodi" class="form-label">Prodi</label>
-                    <select name="prodi" id="prodi" class="form-control" required>
-                        <option value="">--Pilih Jurusan--</option>
-                        <option value="Teknik Informatika">Teknik Informatika</option>
-                        <option value="Teknik Mesin">Teknik Mesin</option>
-                        <option value="Teknik Vidio">Teknik Vidio</option>
-                    </select>
-                </div>
+            
     
                 <div class="mb-3 col-6">
                     <label for="jk" class="form-label">Jenis Kelamin</label>

@@ -1,0 +1,79 @@
+/* Body and wrapper */
+body, .wrapper {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+}
+
+/* Preloader */
+.preloader {
+    background-color: #121212 !important;
+}
+
+/* Navbar */
+.main-header {
+    background-color: #1e1e1e !important;
+}
+.main-header .nav-link {
+    color: #ffffff !important;
+}
+
+/* Sidebar */
+.main-sidebar {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+}
+.main-sidebar .nav-link {
+    color: #cfcfcf !important;
+}
+.main-sidebar .nav-link.active {
+    background-color: #0d6efd !important;
+    color: #fff !important;
+}
+
+/* Cards */
+.card {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+}
+.card-header {
+    background-color: #2a2a2a !important;
+    color: #fff !important;
+}
+
+/* Tables */
+.table, .table th, .table td {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border-color: #333 !important;
+}
+.table thead th {
+    background-color: #2a2a2a !important;
+}
+.table-hover tbody tr:hover {
+    background-color: #333 !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #0d6efd !important;
+    border: none !important;
+}
+.btn-primary:hover {
+    background-color: #0b5ed7 !important;
+}
+
+/* DataTables Pagination */
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    background-color: #2a2a2a !important;
+    color: #fff !important;
+    border: none !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background-color: #0d6efd !important;
+    color: #fff !important;
+}
+
+/* Chart.js Titles and Legends */
+.chartjs-title, .chartjs-label, .chartjs-tooltip {
+    color: #ffffff !important;
+}
